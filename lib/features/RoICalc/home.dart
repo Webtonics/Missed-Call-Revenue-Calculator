@@ -91,12 +91,14 @@ class _MainPageState extends State<MainPage> {
                   Text("Results: $result", style: const TextStyle(
                     fontSize: 30, fontWeight: FontWeight.w600, wordSpacing: 1, color: Colors.black, decoration: TextDecoration.none ),),
                   bigspacing,            
-                  const Text("Monthly \$\$\$ Left on the Table"),
+                  const Text("Monthly 💲💲💲 Left on the Table", style: TextStyle(fontWeight: FontWeight.w600),),
                   bigspacing,
                   const Text(
                     "We Charge \$100/month"
                   ),
-                  Text("You make Extra $roi"),
+                  smallspacing,
+                  Text("You make Extra $roi Income", style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 14),),
+                  bigspacing,
                   bigspacing,
                   const Text("Built by digitalwebtonics Soln", style: TextStyle(fontWeight: FontWeight.w800),)
                   ],
